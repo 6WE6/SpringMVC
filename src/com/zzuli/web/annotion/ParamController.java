@@ -40,7 +40,7 @@ import com.zzuli.web.bean.User;
  * 这里types也可以放多个值，e.g:types={"User.class","Teacher.class"}
  */
 @Controller
-@SessionAttributes(value="u",types=User.class)
+//@SessionAttributes(value="u",types=User.class)
 public class ParamController {
 	
 	/**
